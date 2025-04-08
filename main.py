@@ -44,8 +44,7 @@ They asked: "{query}"
 
 Your task is to generate a structured, professional response with bullet points or tables if needed. Always use Canadian dollars. Keep the tone factual and legal.
 """
-
-    response = openai.ChatCompletion.create(
+response = openai.ChatCompletion.create(
         model="gpt-4",
         messages=[{"role": "user", "content": prompt}]
     )
