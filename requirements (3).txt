@@ -1,0 +1,5 @@
+Flask
+openai
+PyPDF2
+flask-cors
+gunicorn
