@@ -1,4 +1,6 @@
-flask
+Flask
 openai
 PyPDF2
-gunicorn
+python-dotenv
+flask-cors
+
