@@ -1,6 +1,5 @@
 Flask
 openai
 PyPDF2
-python-dotenv
 flask-cors
-
+gunicorn
